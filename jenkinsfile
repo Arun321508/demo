@@ -5,13 +5,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'installing the application...'
+                echo 'building the application...'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'installing the application...'
+                echo 'testing the application...'
             }
         }
 
